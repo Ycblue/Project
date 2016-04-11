@@ -90,7 +90,9 @@ body{
 
 #infopic img{
 	float: right;
-	height: 900px;
+	height: 700px;
+	width: auto;
+	
 }
 
 #info{
@@ -100,15 +102,27 @@ body{
 	top: 1150px;
 	height: 700px;
 	width: 50%;
+	color: white;
 }
+
+#top{
+	margin-top: 200px;
+	margin-left: 100px;
+	font-size: 200%;
+}
+
+#bot{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+
 .footer{
 	position: absolute;
 	bottom: 0;
 	text-align: justify;
-	height: 230px;
-	-ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-	
+	height: 290px;
+	margin: 0 auto;
 }
 .footer img{
 	height: 230px;
@@ -116,9 +130,7 @@ body{
 	vertical-align: top;
 	display: inline-block;
 	*display: inline;
-	zoom: 1;
-	margin: 20px;
-	
+	margin: 50px;
 }
 
 
