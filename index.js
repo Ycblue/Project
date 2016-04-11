@@ -21,7 +21,7 @@ $(document).ready(function(){
 	})
 	$("#p5").on({
 		"mouseover": function(){
-			$("#pic").attr('src',"Pictures/x5.jpeg");
+			$("#pic").attr('src',"Pictures/x5.jpg");
 		}
 	})
 	$("#p6").on({
