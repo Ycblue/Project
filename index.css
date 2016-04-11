@@ -80,7 +80,7 @@ body{
 }
 
 #infopic{
-	border: solid white;
+	
 	float: left;
 	position: relative;
 	top: 1150px;
@@ -89,14 +89,15 @@ body{
 }
 
 #infopic img{
-	float: right;
+    position:absolute;
+    left:30%;
 	height: 700px;
 	width: auto;
 	
 }
 
 #info{
-	border: solid white;
+	
 	float: right;
 	position: relative;
 	top: 1150px;
@@ -112,10 +113,14 @@ body{
 }
 
 #bot{
-	margin-top: 50px;
+	
 	margin-left: 100px;
 }
 
+#bot span{
+    font-size:26pt;
+    font-family:Microsoft JhengHei;
+}
 
 .footer{
 	position: absolute;
