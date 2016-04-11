@@ -1,0 +1,125 @@
+body{	
+	height: 100%;
+}
+
+
+.bg{
+	height: 4320px;
+	display: inline-block;
+	width: 1920px;
+	background-image: url("Pictures/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#icon{
+	position: relative;
+	top: 550px;
+}
+#icon div{
+	height: 200px;
+}
+.center img{
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	padding: 20px 0;
+}
+#question{
+	margin-left: 370px;
+}
+#history{
+	position: relative;
+	top: 1050px;
+}
+
+#box{
+	position: absolute;
+	
+	top: 2025px;
+	left: 240px;
+}
+#box img{
+	width: 100%;
+	top: 1200px;
+}
+
+#gameplan{
+	position: relative;
+	width: 100%;
+	top: 1050px;
+}
+#gameplan div img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+.one{
+	padding:0;
+	margin-left: 8%;
+	display: block;
+}
+#two{
+	//position: absolute;
+	//top: 10px;
+	padding-bottom: 50px;
+	margin-left: 15%;
+	display: block;
+}
+#move1{
+	position: absolute;
+	top: 200px;
+	left: 850px;
+}
+#move2{
+	position: absolute;
+	top: 450px;
+	left: 1180px;
+}
+
+#infopic{
+	border: solid white;
+	float: left;
+	position: relative;
+	top: 1150px;
+	height: 700px;
+	width: 50%;
+}
+
+#infopic img{
+	float: right;
+	height: 900px;
+}
+
+#info{
+	border: solid white;
+	float: right;
+	position: relative;
+	top: 1150px;
+	height: 700px;
+	width: 50%;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	text-align: justify;
+	height: 230px;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	
+}
+.footer img{
+	height: 230px;
+	width:165px;
+	vertical-align: top;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin: 20px;
+	
+}
+
+
+
