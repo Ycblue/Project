@@ -1,3 +1,80 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+$(document).ready(function(){
+	$("#p1").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x1.jpeg");
+		}
+	})
+	$("#p2").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x2.jpeg");
+		}
+	})
+	$("#p3").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x3.jpeg");
+		}
+	})
+	$("#p4").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x4.jpeg");
+		}
+	})
+	$("#p5").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x5.jpg");
+		}
+	})
+	$("#p6").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x6.jpeg");
+		}
+	})
+	$("#p7").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x7.jpeg");
+		}
+	})
+=======
+$(document).ready(function(){
+	$("#p1").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x1.jpeg");
+		}
+	})
+	$("#p2").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x2.jpeg");
+		}
+	})
+	$("#p3").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x3.jpeg");
+		}
+	})
+	$("#p4").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x4.jpeg");
+		}
+	})
+	$("#p5").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x5.jpeg");
+		}
+	})
+	$("#p6").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x6.jpeg");
+		}
+	})
+	$("#p7").on({
+		"mouseover": function(){
+			$("#pic").attr('src',"Pictures/x7.jpeg");
+		}
+	})
+>>>>>>> origin/master
+=======
 $(document).ready(function(){
 	$("#p1").on({
 		"mouseover": function(){
@@ -41,4 +118,5 @@ $(document).ready(function(){
             document.getElementById('intro').innerHTML = '組員<br>藍佑嘉<br><br>電機105<br><br>興趣 - 打籃球<br>';
 		}
 	})
+>>>>>>> origin/master
 });
