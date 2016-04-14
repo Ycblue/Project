@@ -5,7 +5,7 @@ $(document).ready(function(){
 	
 	$.post('/ask',{ID:id}).done(function(res){
 			console.log('ok');
-			$(".outbox").append('<p>' + res.name + '</p>');
+			$(".outbox").append('<p>' + res + '</p>');
 		});
 	
 	});
