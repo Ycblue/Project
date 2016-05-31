@@ -3,14 +3,13 @@ var bodyParser = require('body-parser');
 var app = express();
 var fs = require('fs');
 
-app.listen(8109, function(){
+app.listen(8102, function(){
 	console.log('server run');
 });
 
-app.use(express.static('public/'));
 
 app.get('/',function(req,res){
-	res.sendFile(path.join(__dirname+'/index.html'));
+	res.sendFile(__dirname+'/index.html');
 });
 
 app.use(bodyParser.json());
